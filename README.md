@@ -2,15 +2,11 @@
 
 Explains how to use comboboxes to edit cells in the MFC Grid Control
 
-- [Download full grid demo (v2.20, no executable)  - 148.6 KB](https://raw.githubusercontent.com/ChrisMaunder/gridctrl_combo/master/docs/assets/gridctrl_demo220-noexe.zip)
-- [Download full grid demo (v2.20) - 201.5 KB](https://raw.githubusercontent.com/ChrisMaunder/gridctrl_combo/master/docs/assets/gridctrl_demo220.zip)
-- [Download grid combo demo - 148.7 KB](https://raw.githubusercontent.com/ChrisMaunder/gridctrl_combo/master/docs/assets/gridctrl_combo.zip)
-
 ![Sample Image - gridctrl_combo.gif](https://raw.githubusercontent.com/ChrisMaunder/gridctrl_combo/master/docs/assets/gridctrl_combo.gif)
 
 ## Introduction
 
-Since I posted my [MFC grid control](gridctrl.aspx) I've had a lot of requests asking how to use other methods of editing cells in the grid. Ken Bertelson has taken this to the [extreme](GridTreeCtrl.aspx), with his [Grid Tree control](GridTreeCtrl.aspx). For some this was a little too involved, so I've created a demo project that shows how to replace the default editing with a simple combo box. 
+Since I posted my [MFC grid control](https://github.com/ChrisMaunder/MFC-GridCtrl) I've had a lot of requests asking how to use other methods of editing cells in the grid. Ken Bertelson has taken this to the extreme with his [Grid Tree control](https://www.codeproject.com/Articles/126054/CTreeGridCtrl-A-Grid-Control-with-Tree-Like-Functi). For some this was a little too involved, so I've created a demo project that shows how to replace the default editing with a simple combo box. 
 
 Previous methods of achieving this required that a new `CGridCtrl` derived class be created. With the new structure in the 2.X versions of `CGridCtrl` it's now a lot simpler. 
 
